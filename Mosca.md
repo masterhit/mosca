@@ -6,12 +6,12 @@ O vídeo foi registrado com uma câmera modelo iSpeed 3 equipada com lente Nikko
 
 ### Análise dos Dados (Tracker)
 
-![Screenshot%202020-04-18%2013.14.26.png](attachment:Screenshot%202020-04-18%2013.14.26.png)
+![Tracker_Mosca.png](attachment:Tracker_Mosca.png)
 
 A origem do sistema de coordenadas foi fixada na cabeça do inseto e move-se com ele durante o voo.
 Um ponto da asa equerda foi rastreado manualmente durante 600 quadros de vídeo (150 ms). A frequência do movimento das asas foi determinada diretamente no espectro de Fourier da ferramenta de análise do próprio Tracker, que encontrou como predominante uma componente de 220 Hz (A componente de 0 Hz é, obviamente, descartada por se tratar de um efeito do deslocamento da origem do sistema de coordenadas).
 
-![](output_10_1.png)
+![Tracker_Fourier.png](attachment:Tracker_Fourier.png)
 
 ### Análise dos Dados (Python 3)
 
@@ -126,7 +126,7 @@ plt.plot(Mosca_Asa['t'],Mosca_Asa['y']/20, color='k', alpha=0.5)
 
 
 
-    [<matplotlib.lines.Line2D at 0x1c1f392748>]
+    [<matplotlib.lines.Line2D at 0x1c1e3fb6d8>]
 
 
 
